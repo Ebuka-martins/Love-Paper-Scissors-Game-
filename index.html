@@ -24,12 +24,37 @@
 
 <body>
     <!-- header -->
-    <header>header</header>
+    <header>
+        <h1>Rock Paper Scissors Game</h1>
+    </header>
 
 
-    
+
     <!-- main content -->
-    <main>main content</main>
+    <main>
+        <div id="general">
+            <h2>The Game Show</h2>
+        <div id="decision">
+            <button onclick="playGame('rock')">👍</button>
+            <button onclick="playGame('paper')">👌</button>
+            <button onclick="playGame('scissors')">🏆</button>
+
+        </div>
+
+        <div class="playerDisplay">Player</div>
+        <div class="machineDisplay">Machine</div>
+        <div class="resultDisplay">Its a Draw Game!!!</div>
+
+           
+        <div class="scoreDisplay">Player Score:<span id="playerScoreDisplay">0</span></div>
+
+        <div class="scoreDisplay">Machine Score:<span id="machineScoreDisplay">0</span></div>
+
+
+          
+
+        </div>
+    </main>
 
 
 
