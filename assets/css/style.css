@@ -12,14 +12,26 @@
 }
 
 
+/* General Style */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+}
+
+
+/* header */
 header {
   background-color: royalblue;
 }
 
+/* main content */
 main {
     background-color: chartreuse;
 }
 
+/* footer */
 footer {
    background-color: aqua;
 }
