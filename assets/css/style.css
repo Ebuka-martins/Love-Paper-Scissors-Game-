@@ -24,15 +24,27 @@ body {
 /* header */
 header {
   background-color: royalblue;
+  position: fixed;
+  padding: 0 1rem;
+  z-index: 99;
+  width: 100%;
+  height: 60px;
+  
 }
 
 /* main content */
 main {
-    background-color: chartreuse;
+    background-color:tan;
+    flex: 1 0 auto;
+    margin-top: 55px;
 }
 
 /* footer */
 footer {
    background-color: aqua;
+   padding: 0 1rem;
+   z-index: 99;
+   width: 100%;
+   height: 60px;
 }
 
