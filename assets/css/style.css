@@ -39,6 +39,59 @@ h1 {
     color: #273d17;
 }
 
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* decision area */
+#decision {
+   margin-bottom: 10px;
+   margin-top: 15px;
+
+}
+
+#decision button {
+    font-size: 70px;
+    min-width: 100px;
+    border-radius: 50px;
+    background-color: #007be0;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+
+/* position area */
+.playerDisplay, .machineDisplay {
+    font-size: 30px;
+}
+
+.resultDisplay {
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+#decision button:hover {
+    background-color: rgb(167, 189, 208)
+}
+
+
+/* general area of the game */
+#general {
+    background-color: #6E3171;
+    width: 85%;
+    height: 68vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+
+}
+
 /* main content */
 main {
     background-color:#ffffff;
