@@ -129,6 +129,12 @@ main {
     margin-top: 65px;
 }
 
+
+/* creating a welcome page  */
+#welcome {
+    padding-top: 20px;
+}
+
 .welcome-page {
     background-color: #24243e;
     border-radius: 8px;
