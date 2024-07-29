@@ -242,7 +242,7 @@ main {
     }
     .side-button {
         top: auto;
-        top: 210px;
+        bottom: 130px;
         left: 20%;
         transform: translateX(-50%);
         padding: 5px;
