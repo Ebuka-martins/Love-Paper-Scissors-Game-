@@ -12,8 +12,12 @@ function playGame(playerdecision) {
     const machinedecision = decisions[Math.floor(Math.random() * 3)];
     let result = "";
 
+    // Reset Classes
+    resultDisplay.classList.remove("win", "lose", "draw");
+
     if (playerdecision === machinedecision) {
         result = "IT'S A DRAW GAME!!!";
+        resultDisplay.classList.add("draw");
     } else {
         switch (playerdecision) {
             case "rock":
@@ -30,8 +34,10 @@ function playGame(playerdecision) {
 
     if (result === "YOU WIN!") {
         playerScore++;
+        resultDisplay.classList.add('win');
     } else if (result === "YOU LOSE!") {
         machineScore++;
+        resultDisplay.classList.add('lose');
     }
 
     playerDisplay.textContent = `Player: ${playerdecision}`;

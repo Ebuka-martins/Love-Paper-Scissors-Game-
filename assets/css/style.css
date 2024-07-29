@@ -49,6 +49,21 @@ h2 {
    margin-bottom: 10px;
    margin-top: 15px;
 
+} 
+
+.win {
+    color: rgb(50, 186, 50);
+    font-weight: bold;
+}
+
+.lose {
+    color: rgb(213, 25, 25);
+    font-weight: bold;
+}
+
+.draw {
+    color: rgb(250, 230, 17);
+    font-weight: bold;
 }
 
 #decisions button {
