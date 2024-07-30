@@ -88,7 +88,7 @@ h2 {
 }
 
 #decisions button:hover {
-    background-color: rgb(167, 189, 208)
+    background-color: rgb(167, 189, 208);
 }
 
 .scoreDisplay {
@@ -174,7 +174,7 @@ main {
 
 /* Creating a side button link on the main index page  */
 .side-button {
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 10px;
     transform: translateY(-50%);

@@ -30,26 +30,34 @@
 
 
 
-    <!-- main section of welcome page-->
+    <!-- main content -->
     <main>
-        <div id="welcome">
-            <div class="welcome-page">
-                <p>Welcome to the Rock Paper Scissors gaming experience! Whether you're a seasoned player or just starting,
-                    the website offers a diverse range of exciting games to challenge your skills and ignite your
-                    passion.
-                    Dive into the fun, compete with machine, and explore new adventures. Get ready to play, win, and
-                    enjoy—because here,the game never ends!</p>
-                 <button>
-                    <a href="index.html" aria-label="go to rock page" class="main-index">Click Here to Start The Game</a>
-                 </button>   
+        <div class="side-button">
+            <a href="index.html" aria-label="Go to welcome page">
+                <i class="fa-solid fa-handshake"></i> Welcome page
+            </a>
+        </div>
+        <div id="general">
+            <h2>The Game Show</h2>
+         <div id="decisions">
+            <button onclick="playGame('rock')">👊</button>
+            <button onclick="playGame('paper')">✋</button>
+            <button onclick="playGame('scissors')">✌️</button>
 
+         </div>
 
-            </div>
+          <div id="position"> 
+           <div class="display-input" id="playerDisplay">Player:</div>
+           <div class="display-input" id="machineDisplay">Machine:</div>
+           <div class="result-input" id="resultDisplay"></div>
 
+           
+           <div class="scoreDisplay">Player Score:<span id="playerScoreDisplay">0</span></div>
 
-
-
-
+          <div class="scoreDisplay">Machine Score:<span id="machineScoreDisplay">0</span></div>
+         </div>
+          
+          
 
         </div>
     </main>
@@ -58,7 +66,7 @@
 
 
 
-    <!-- social media footer of the website -->
+   <!-- footer -->
     <footer>
         <div id="social-contact">
             <a href="https://github.com/Ebuka-martins" target="_blank" rel="noopener"
