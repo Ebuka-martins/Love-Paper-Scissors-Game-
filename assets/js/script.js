@@ -45,4 +45,24 @@ function playGame(playerdecision) {
     resultDisplay.textContent = result;
     playerScoreDisplay.textContent = playerScore;
     machineScoreDisplay.textContent = machineScore;
+
+    if (playerScore >= 10) {
+        endGame("Congratulation! you reached 10 points first and won the game!");
+    } else if (machineScore >= 10) {
+        endGame("The machine reached 10 point first. Better luck next time!");
+    }
+}
+
+function endGame(message) {
+    // Display a celebration message
+    resultDisplay.textContent = message;
+    // change the styling as needed
+    resultDisplay.classList.add('win'); 
+
+    // optionally, add celebratory effects like confetti or sounds
+    alert(message);
+
+    // Display further play
+    playerScore = 0;
+    machineScore = 0; 
 }
