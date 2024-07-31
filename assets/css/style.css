@@ -108,7 +108,7 @@ h2 {
 
 /* general area of the game */
 #general {
-    background-color: #6E3171;
+    background-color: #ffffff;
     width: 85%;
     height: 68vh;
     max-height: 450px;
@@ -127,6 +127,9 @@ main {
     background-color: #1e1e2f;
     flex: 1 0 auto;
     margin-top: 65px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -276,7 +279,7 @@ main {
     }
 /* styling for screen above 768px*/
     #general {
-        background-color: #6E3171;
+        background-color: #ffffff;
         width: 85%;
         height: 74vh;
         max-height: 450px;
@@ -328,7 +331,7 @@ main {
     }
 
     #general {
-        background-color: #6E3171;
+        background-color: #ffffff;
         width: 85%;
         height: 72vh;
         max-height: 450px;
