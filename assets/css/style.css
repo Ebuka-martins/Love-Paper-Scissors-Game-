@@ -386,3 +386,10 @@ main {
         height: 80vh;
      }
 }
+
+@media screen and (min-width: 1200px) {
+    .result-input {
+        font-size: 29px;
+        margin: 10px 0;
+    }
+}
