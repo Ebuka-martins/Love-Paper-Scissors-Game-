@@ -12,7 +12,7 @@ The site can be accessed by this [link](https://ebuka-martins.github.io/Rock-Pap
 ### Overview
 As First Time User of the Rock, Paper, Scissors game website, I want to enjoy a simple and engaging gameplay experience where I can compete against a computer. The game should be easy to understand and play, provide immediate feedback, and keep track of scores. The first player to reach 10 points wins.
 
-#### First Time User Goal
+### First Time User Goal
 
 ##### 1. Discover The Game
 - As a first-time user, I want to easily understand the purpose of the website from the welcome page, so I know what to expect from the game.
@@ -26,7 +26,7 @@ As First Time User of the Rock, Paper, Scissors game website, I want to enjoy a 
 
 - I want immediate visual and textual feedback on the outcome of each round (win, lose, draw).
 
-#### Returning User Goal
+### Returning User Goals
 
 ##### 1. Brief Access of the Game
 
@@ -34,9 +34,20 @@ As First Time User of the Rock, Paper, Scissors game website, I want to enjoy a 
 ##### 2. Brief Challenge of the Game
 - I want to challenge myself against the computer, aiming to improve my score and strategies over time.
 
-#### Regular User Goal
+### Regular User Goals
 - As a regular user, I want a consistent and reliable gaming experience every time I visit the site, with no bugs or unexpected changes in gameplay mechanics.
 
 #### Additional Consideration of the Game
 - The game should work seamlessly on different devices, including desktops, tablets, and smartphones.
 
+## Features
+### Home/Index Page
+- Main page has a white color header containing the Title of the game "Rock Paper Scissors Game".
+- The header also contains a cadet color background whith a title capture ontop. 
+- The main page contains a brief white welcome text in space cadet color of what the gane is all about and what to except for whoseover get to score 10 first.
+- The Main page also contain a button with a hovering color attribute "Click Here To Start The Game".   
+ - Main page also contain the Footer Icon that has a live link to My GitHub page.
+
+ ![Home Page](assets/image/home.png)
+
+### Game Page 
