@@ -116,8 +116,18 @@ js{
 }
 
 ```
-- *Solution:* I made was to include semi-cilon at the end of all the statements and make sure that Esversion 6 was rsolved.
+ *Solution:* I made was to include semi-cilon at the end of all the statements and make sure that Esversion 6 was rsolved.
 
+## Texting
+  ### COMPATIBILITY:
 
+  - In order to confirm the correct functionality and appearance across devices, the website was tested on the following browsers: Chrome, Firefox and Microsoft Edge.
 
-  ## gg
+- Chrome Brower:
+ ![Chrome Broswer](assets/image/chrome.png)
+
+- Edge Browser:
+ ![Chrome Broswer](assets/image/edge.png)
+
+ - Mozilla Firefox
+ ![Chrome Broswer](assets/image/mozilla-game-imageonline.co-merged.png)
