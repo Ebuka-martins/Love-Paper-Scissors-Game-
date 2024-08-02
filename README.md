@@ -131,3 +131,33 @@ js{
 
  - Mozilla Firefox
  ![Chrome Broswer](assets/image/mozilla-game-imageonline.co-merged.png)
+
+
+  ## Devtools Responsive Testing
+ - In order to confirm the responsivenes of the website across devices, the website was checked with devtools implemented in Chrome, Microsoft Edge and Firefox browsers.
+
+ ## Validator testing
+ + ### HTML
+   - Initially an errors was found at the home/index page, which was resolved accordingly by checking through for errors.
+
+   ### Home page Section
+- No errors or warnings were found when passing through the official W3C validator.
+
+![Home Validator](assets/image/home-validator.png)
+
+ ### Game page Section
+- No errors or warnings were found when passing through the official W3C validator.
+![Game Validator](assets/image/game-validator.png)
+
+### CSS 
+- No errors were returned when passing through the official W3C CSS Validator (Jigsaw) after it has been resolved accordingly by removing font-weight from asterick/ wildcard.
+![CSS Validator](assets/image/style.png)
+
+### Javascript
+- No errors or warnings were found when passing through the official [JSHint](https://jshint.com/) validator except that semic-colon that was added at the end of every statement, and Esversion6 that has been resolved accordingly.
+- Furthermore, the codes are working effectively.
+
+![JsHint Validator](assets/image/js-validator.png)
+
+ ## Wave Test Report
+ 
