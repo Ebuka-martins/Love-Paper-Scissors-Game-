@@ -60,3 +60,20 @@ As First Time User of the Rock, Paper, Scissors game website, I want to enjoy a 
 
 ![Game Page](assets/image/game.png)
 
+## Technologies Used
+ - [GitHub](https://github.com/) was used to host the code of the website.
+ - [Gitpod](https://gitpod.io/) was used as the main tool to write and edit code.  
+
+ ## Design 
+
+  ### Color Design
+  ![Color Design](assets/image/text-colors.png)
+
+  - Green color was used as the player score output.
+  - Red color was used as the machine score ouput.
+  - Sapphire color was used as the border and hovering color that emanate when the cursor is placed on the button of the home/index page.
+  - The space cadet color was used as the background color of the index/home page.
+  - Azure color was used as the left side color of header.
+  - The white color is used as the text color of the header, background text and the game page background.
+  - The yellow color for "YOU DRAW" that pops up at the game page when the game is drawned between the player and machine.
+  - Ralsin black color was used as the right side color of the header.
