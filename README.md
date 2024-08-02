@@ -78,9 +78,46 @@ As First Time User of the Rock, Paper, Scissors game website, I want to enjoy a 
   - The yellow color for "YOU DRAW" that pops up at the game page when the game is drawned between the player and machine.
   - Ralsin black color was used as the right side color of the header.
 
-  ### Typography
+  ## Typography
 
    - Roboto google font was used as the main font of the website in order to increase readability of the content on the pages.
 
   ![Roboto Font](assets/image/roboto.png)
   
+  ## Bugs 
+  ### Solved bugs
+  - on the home/index page validation," button" attribute was used on the "a" and error was detected
+  ```html
+  <button>
+        <a href="game.html" aria-label="go to rock page" class="main-index">Click Here to Start The Game</a>
+    </button>
+  ```
+   *Solution:* I made was to remove the "button" attribute and used "a" attribute directly without removing indenting them to the buton directly.
+   ```
+    <a href="game.html" aria-label="Go to Rock Paper Scissors game page" class="main-index button">Click Here to Start The Game</a>
+   ```
+ - on the css style validation, an error was detected, because 20px was used on font-weight in the wildcard of the css.
+
+   ```
+   * {
+   
+    font-weight: 20px;
+    }
+
+   ```
+
+   *Solution:* I made was to remove the font-weight from the wildcard asterick in the css style.
+
+
+- Using jshint validator an error was detected because Esversion6 and the "use strict"; was not added, and semi-colon was not included at the end of all statement.
+```
+js{
+    "use strict";
+}
+
+```
+- *Solution:* I made was to include semi-cilon at the end of all the statements and make sure that Esversion 6 was rsolved.
+
+
+
+  ## gg
