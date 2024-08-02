@@ -77,3 +77,10 @@ As First Time User of the Rock, Paper, Scissors game website, I want to enjoy a 
   - The white color is used as the text color of the header, background text and the game page background.
   - The yellow color for "YOU DRAW" that pops up at the game page when the game is drawned between the player and machine.
   - Ralsin black color was used as the right side color of the header.
+
+  ### Typography
+
+   - Roboto google font was used as the main font of the website in order to increase readability of the content on the pages.
+
+  ![Roboto Font](assets/image/roboto.png)
+  
