@@ -51,3 +51,12 @@ As First Time User of the Rock, Paper, Scissors game website, I want to enjoy a 
  ![Home Page](assets/image/home.png)
 
 ### Game Page 
+- The game page has a white background area where the game is centered at the middle of the page.
+- It consist of three playgame buttons of (rock, paper and scissors ) that are clickable
+- The playgame buttons has a light-blue hovering attribute when the cursor are being slide over them
+- "win, lose or draw" are displayed immediately any buttons are clicked.
+- The game page also has a display input that comprises of both the player and machine score list.
+- Finally, either a congratulatory message that appears on the screen "you won the game" or a better luck next time message that emanates when you lose the game.
+
+![Game Page](assets/image/game.png)
+
