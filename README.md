@@ -190,6 +190,20 @@ js{
     ![CSS Validator ](assets/image/style.png)
 
 
+  ## Deployment
+
+ ### Deployment to GitHub Pages
+
+  - The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab.
+  - From the general navigate to pages.
+  - In the pages, from the source drop down menu, select the main branch, then click save.
+  - Once saved, the link will be created to the website.   
+    The live link can be found [here](https://ebuka-martins.github.io/Rock-Paper-Scissors-Game-/)
+
+
+
+
 
 
 
