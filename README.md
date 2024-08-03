@@ -201,7 +201,13 @@ js{
   - Once saved, the link will be created to the website.   
     The live link can be found [here](https://ebuka-martins.github.io/Rock-Paper-Scissors-Game-/)
 
+   ### Local Deployment
+   - In order to make a local copy of this project, you can clone it.
+  - In your IDE Terminal, type the following command to clone my repository:
 
+ - `git clone https://github.com/Ebuka-martins/Rock-Paper-Scissors-Game.git`
+
+ - Alternatively,  if you use Gitpod, you can [link](https://ebuka-martins.github.io/Rock-Paper-Scissors-Game/) which will start the Gitpod workspace for you.
 
 
 
