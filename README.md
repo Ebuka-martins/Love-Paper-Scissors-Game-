@@ -209,15 +209,22 @@ js{
 
  - Alternatively,  if you use Gitpod, you can [link](https://ebuka-martins.github.io/Rock-Paper-Scissors-Game/) which will start the Gitpod workspace for you.
 
- ## Credits  
+ ## Credits Accolade
 
  ### Content 
  
  - The inspiration was gotten from BroCodez who I have been following for almost 1 year and I have learnt alot from.
  - The name of the game "Rock Paper Scissors Game" was gotten from [BroCodez](https://www.youtube.com/@BroCodez).
+ - my inspiration was gotten from [Code Institute](https://codeinstitute.net/ie/) love Maths lectures.
  - GitHub icon in the footer was taken from [Font Awesome](https://fontawesome.com/)
  - The Roboto font was gotten from [Google Font](https://fonts.google.com/).
 
+- The favicon logo generator used for this website was gotten from [favicon](https://favicon.io/).
+ - The media query screen was gotten from an inspiration gottern [w3school](https://www.w3schools.com/html/default.asp).
+  - The group color text logo munched for this README was gotten frm [color co](https://coolors.co/).
+  - The website used to screenshot the full website used on features for README [thum io](https://www.thum.io/).
+  - The tools used to screenshot various device breakpoint for responsive design for README was gotten from [am i responsive](https://ui.dev/amiresponsive).
+  
 
 
 
