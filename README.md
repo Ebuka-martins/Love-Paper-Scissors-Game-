@@ -160,4 +160,17 @@ js{
 ![JsHint Validator](assets/image/js-validator.png)
 
  ## Wave Test Report
- 
+ - wave test report was used to test the webpage performance and functions in different environments or at different times.
+
+ ![Wave Test ](assets/image/wave-test.png)
+
+ ## Lighthouse Test Report
+ - Using lighthouse in devtools for my website, I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+
+ ### Home Page Section
+ ![Home Validator ](assets/image/home-validator.png)
+
+ ### Game Page Section
+  ![Game Validator ](assets/image/game-validator.png)
+
+  
