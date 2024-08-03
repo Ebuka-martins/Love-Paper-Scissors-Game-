@@ -166,6 +166,12 @@ js{
 
  ## Lighthouse Test Report
  - Using lighthouse in devtools for my website, I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+  ### Home Page Section
+  ![Lighthouse Home test ](assets/image/lighthouse-home.png)
+
+   ### Game Page Section
+  ![Lighthouse Game test ](assets/image/lighthouse-game.png)
+   
 
 
  ## Validation
