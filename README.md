@@ -209,6 +209,15 @@ js{
 
  - Alternatively,  if you use Gitpod, you can [link](https://ebuka-martins.github.io/Rock-Paper-Scissors-Game/) which will start the Gitpod workspace for you.
 
+ ## Credits  
+
+ ### Content 
+ 
+ - The inspiration was gotten from BroCodez who I have been following for almost 1 year and I have learnt alot from.
+ - The name of the game "Rock Paper Scissors Game" was gotten from [BroCodez](https://www.youtube.com/@BroCodez).
+ - GitHub icon in the footer was taken from [Font Awesome](https://fontawesome.com/)
+ - The Roboto font was gotten from [Google Font](https://fonts.google.com/).
+
 
 
 
