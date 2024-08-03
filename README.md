@@ -167,10 +167,24 @@ js{
  ## Lighthouse Test Report
  - Using lighthouse in devtools for my website, I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
 
+
+ ## Validation
+
+   ### HTML
+   - No errors or warnings were found when passing through the official W3C validator
+
  ### Home Page Section
  ![Home Validator ](assets/image/home-validator.png)
 
  ### Game Page Section
   ![Game Validator ](assets/image/game-validator.png)
 
-  
+  ### CSS
+   - No errors were returned when passing through the official W3C CSS Validator (Jigsaw).
+    ![CSS Validator ](assets/image/style.png)
+
+
+
+
+
+
