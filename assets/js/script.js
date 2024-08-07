@@ -47,22 +47,39 @@ function playGame(playerdecision) {
     machineScoreDisplay.textContent = machineScore;
 
     if (playerScore >= 10) {
-        endGame("Congratulation! you reached 10 points first and won the game!");
+        endGame("Congratulation! you reached 10 points first and won the game!", true);
     } else if (machineScore >= 10) {
-        endGame("The machine reached 10 point first. Better luck next time!");
+        endGame("The machine reached 10 points first. Better luck next time!", false);
     }
 }
 
-function endGame(message) {
-    // Display a celebration message
-    resultDisplay.textContent = message;
-    // change the styling as needed
-    resultDisplay.classList.add('win'); 
+function endGame(message, playerWon) {
+    // Determine the title and icon based on whether the player won or lost
+    let title = playerWon ? "Well Done!" : "Oops";
+    let icon = playerWon ? "success" : "error";
 
-    // optionally, add celebratory effects like confetti or sounds
-    alert(message);
+    // Display a SweetAlert message
+    Swal.fire({
+        title: title,
+        text: message,
+        icon: icon,
+        confirmButtonText: 'Play Again'
+    }).then((result) => {
+        if (result.isConfirmed) {
+            // Reset scores and update the display after the SweetAlert is confirmed
+            playerScore = 0;
+            machineScore = 0;
+            playerScoreDisplay.textContent = playerScore;
+            machineScoreDisplay.textContent = machineScore;
+            resultDisplay.textContent = '';
+            resultDisplay.classList.remove('win', 'lose', 'draw');
+        }
+    });
 
-    // Display further play
-    playerScore = 0;
-    machineScore = 0; 
+    // Change the styling as needed
+    if (playerWon) {
+        resultDisplay.classList.add('win');
+    } else {
+        resultDisplay.classList.add('lose');
+    }
 }
