@@ -78,6 +78,13 @@ As First Time User of the Rock, Paper, Scissors game website, I want to enjoy a 
   - The yellow color for "YOU DRAW" that pops up at the game page when the game is drawned between the player and machine.
   - Ralsin black color was used as the right side color of the header.
 
+  ## Wireframes
+  - Wireframes were created for mobile, tablet and desktop using wireframe.cc .
+   ![Wireframe Mobile](assets/image/wireframe-mobile.png)
+   ![Wireframe home](assets/image/wireframe-home.png)
+   ![Wireframe Mobile](assets/image/wireframe-game.png)
+
+
   ## Typography
 
    - Roboto google font was used as the main font of the website in order to increase readability of the content on the pages.
