@@ -250,6 +250,8 @@ js{
   - The website used to screenshot the full website used on features for README [thum io](https://www.thum.io/).
   - The tools used to screenshot various device breakpoint for responsive design for README was gotten from [am i responsive](https://ui.dev/amiresponsive).
   
+
+  
  ## Acknowlegement
  - I give Special thanks to my wife Precious Chidimma, my brother John Paul and my parents who has been a great support to me all through this project.
  - [Vernell Clark](https://github.com/VCGithubCode) is my friend and he has been a great support to me throughout this project.
