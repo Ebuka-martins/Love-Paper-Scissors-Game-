@@ -136,6 +136,18 @@ js{
   ## Devtools Responsive Testing
  - In order to confirm the responsivenes of the website across devices, the website was checked with devtools implemented in Chrome, Microsoft Edge and Firefox browsers.
 
+ ## Manual Testing
+  | feature | action | expected result | tested | passed | comments |
+| --- | --- | --- | --- | --- | --- 
+| Navbar |Contains the name of the game | Display the name of the game |Yes |Yes |- |
+| Home Page | | | | | |
+| Home | Click on the "Click here to start the Game" Button | The user is redirected to the Game page section | Yes | Yes | - |
+| Game Page | | | | | |
+| Home | Click on the "PlayGame" icons | The user is expected to get either rock, paper, and scissors when clicked on | Yes | Yes | - |
+| Footer | | | | | |
+| GitHub icon in the footer | Click on the GitHub icon | The user is redirected to my GitHub page | Yes | Yes | - |
+
+
  ## Validator testing
  + ### HTML
    - Initially an errors was found at the home/index page, which was resolved accordingly by checking through for errors.
