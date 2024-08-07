@@ -140,12 +140,17 @@ js{
   | feature | action | expected result | tested | passed | comments |
 | --- | --- | --- | --- | --- | --- 
 | Navbar |Contains the name of the game | Display the name of the game |Yes |Yes |- |
-| Home Page | | | | | |
+| Main Page | | | | | |
 | Home | Click on the "Click here to start the Game" Button | The user is redirected to the Game page section | Yes | Yes | - |
-| Game Page | | | | | |
-| Home | Click on the "PlayGame" icons | The user is expected to get either rock, paper, and scissors when clicked on | Yes | Yes | - |
 | Footer | | | | | |
 | GitHub icon in the footer | Click on the GitHub icon | The user is redirected to my GitHub page | Yes | Yes | - |
+| Game Page | | | | | |
+| Home | Click on the "PlayGame" icons | The user is expected to get either rock, paper, and scissors when clicked on | Yes | Yes | - |
+| Home page Section | | | | | |
+| Home Page | Click on the "Click here to start the Game button" to take you to the game section | The button is clicked | Yes | Yes | If the user doesn't click the button, you will not be redirected to the game section |
+| Game page Section| | | | | |
+| Three PlayGame Icons | Click on any of the game icon | once clicked, Either the rock, paper and scissors words is displayed once you clicked any of the icons | Yes | Yes | If user doesn't clicked on the icons, a result of either win, lose or draw will not be displayed against the computer |
+
 
 
  ## Validator testing
