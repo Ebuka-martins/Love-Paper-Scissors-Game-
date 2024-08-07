@@ -245,7 +245,8 @@ js{
 
 - The favicon logo generator used for this website was gotten from [favicon](https://favicon.io/).
  - The media query screen was gotten from an inspiration gottern [w3school](https://www.w3schools.com/html/default.asp).
-  - The group color text logo munched for this README was gotten frm [color co](https://coolors.co/).
+  - The wireframes created for both mobile, tablet, and laptop used for this game was gotten from [wireframe](https://wireframe.cc/).
+  - The group color text logo munched for this README was gotten from [color co](https://coolors.co/).
   - The website used to screenshot the full website used on features for README [thum io](https://www.thum.io/).
   - The tools used to screenshot various device breakpoint for responsive design for README was gotten from [am i responsive](https://ui.dev/amiresponsive).
   
