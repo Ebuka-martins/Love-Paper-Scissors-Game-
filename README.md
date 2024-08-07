@@ -118,7 +118,7 @@ js{
 ```
  *Solution:* I made was to include semi-cilon at the end of all the statements and make sure that Esversion 6 was rsolved.
 
-## Texting
+## Testing
   ### COMPATIBILITY:
 
   - In order to confirm the correct functionality and appearance across devices, the website was tested on the following browsers: Chrome, Firefox and Microsoft Edge.
